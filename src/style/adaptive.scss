@@ -1,0 +1,44 @@
+@media(max-width:700px) {
+    .sending-window{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .sending-btn{
+        top: 105%;
+        right: 50%;
+        transform: translateY(-100%);
+    }
+    .sending-btn-active{
+        transform:  translateY(-100%) rotate(180deg);
+    }
+    .inform{
+        padding: 0 10px;
+    }
+    .form{
+        margin: 0px 10px;
+    }
+    .inform__title{
+        margin-left: -10px;
+    }
+}
+@media(max-width:410px){
+    .sending-window__content{
+        max-width: 320px;
+    }
+    .form__input{
+        font-size: 15px;
+        padding: 6px 7px;
+        max-width: 190px;
+    }
+    .form__btn{
+        padding: 6px 6px;
+        
+    }
+    .form__btn p{
+        font-size: 15px;
+    }
+    .form__reset img{
+        width: 15px;
+        height: 15px;
+    }
+}
